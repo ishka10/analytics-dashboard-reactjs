@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/analytics-dashboard-reactjs/static/css/main.c5bdde7e.css",
+    "main.js": "/analytics-dashboard-reactjs/static/js/main.34910402.js",
+    "index.html": "/analytics-dashboard-reactjs/index.html",
+    "main.c5bdde7e.css.map": "/analytics-dashboard-reactjs/static/css/main.c5bdde7e.css.map",
+    "main.34910402.js.map": "/analytics-dashboard-reactjs/static/js/main.34910402.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5bdde7e.css",
+    "static/js/main.34910402.js"
+  ]
+}
