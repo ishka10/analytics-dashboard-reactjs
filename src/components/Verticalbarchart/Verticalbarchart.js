@@ -2,52 +2,46 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 import './Verticalbarchart.css'
 const data = [
     {
-      name: 'Page A',
-      uv: 4000,
-      pv: 2400,
-      amt: 2400,
+      name: 'Physiologist',
+      IP: 4000,
+      OP: 2400,
+      
     },
     {
-      name: 'Page B',
-      uv: 3000,
-      pv: 1398,
-      amt: 2210,
+      name: 'Pediatrician',
+      IP: 3000,
+      OP: 1398,
+      
     },
     {
-      name: 'Page C',
-      uv: 2000,
-      pv: 9800,
-      amt: 2290,
+      name: 'Neurologist',
+      IP: 2000,
+      OP: 9800,
+      
     },
     {
-      name: 'Page D',
-      uv: 2780,
-      pv: 3908,
-      amt: 2000,
+      name: 'Gynecologist',
+      IP: 1890,
+      OP: 4800,
+      
     },
     {
-      name: 'Page E',
-      uv: 1890,
-      pv: 4800,
-      amt: 2181,
+      name: 'Dentist',
+      IP: 3490,
+      OP: 4300,
+      
     },
     {
-      name: 'Page F',
-      uv: 2390,
-      pv: 3800,
-      amt: 2500,
-    },
-    {
-      name: 'Page G',
-      uv: 3490,
-      pv: 4300,
-      amt: 2100,
+      name: 'Cardiologist',
+      IP: 3490,
+      OP: 4300,
+      
     },
   ];
 const Verticalbarchart = () => {
     return ( 
     <div className="card-2">
-        <h3 className="Bartitle">Bar title</h3>
+        <h3 className="Bartitle">Inpatient vs Outpatient</h3>
         <ResponsiveContainer width="100%" aspect ={4/1}>
         <BarChart
           width={500}
@@ -65,8 +59,8 @@ const Verticalbarchart = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="pv" fill="#8884d8" />
-          <Bar dataKey="uv" fill="#82ca9d" />
+          <Bar dataKey="IP" fill="#8884d8" />
+          <Bar dataKey="OP" fill="#82ca9d" />
         </BarChart>
         </ResponsiveContainer>
         </div> 

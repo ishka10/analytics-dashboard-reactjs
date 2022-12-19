@@ -62,7 +62,8 @@ const Table = () => {
   })
 
   return (
-    <div className='card-3'>
+    <div className='card-table'>
+      <h3>Recently admitted patients </h3>
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map(headerGroup => (

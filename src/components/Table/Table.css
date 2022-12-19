@@ -31,11 +31,12 @@
     border: 1px solid grey;
     font-size: 12pt;
     border-collapse: collapse;
+    float: left;
   }
   table thead th,
   table tfoot th {
-    color: #777;
-    background: rgba(0,0,0,.1);
+    color: #555;
+    background: #8884d8;
   }
   table caption {
     padding:.5em;
@@ -46,16 +47,13 @@
     border: 1px solid lightgrey;
   }
 
-  .card-3{
+  .card-table{
     position:relative;
-    flex: 1;
-    max-width: 33%;
-    height:225px;
+    flex:1;
+    max-width:47%;
+    height:240px;
     margin: 10px;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
+    border-radius: 10px;      
+    background-color: #fffaef; 
 }

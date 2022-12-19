@@ -2,8 +2,10 @@ import Topbar from "./components/Topbar/Topbar";
 import FeaturedInfo from "./components/FeaturedInfo/FeaturedInfo";
 import "./components/FeaturedInfo/FeaturedInfo.css"
 import Verticalbarchart from "./components/Verticalbarchart/Verticalbarchart"
-import Chartpie from "./components/Chartpie/Chartpie";
-import Table from './components/Table/Table'
+import Chartline from './components/Chartline/Chartline';
+import Table from './components/Table/Table';
+import Chartpie1 from './components/ChartPie1/Chartpie1';
+import Chartpie2 from './components/ChartPie2/Chartpie2';
 
 
 function App() {
@@ -13,11 +15,13 @@ function App() {
     <FeaturedInfo />
     <div className ="row">
     <Verticalbarchart/>
-    <Chartpie/>
+    <Chartline/>
     </div>
     <div className ="row">
       <Table/>
-    </div>
+      <Chartpie1 />
+      <Chartpie2 />
+      </div>        
     </div>
   );
 }

@@ -1,12 +1,12 @@
 .card-2{
     position:relative;
     flex: 1;
-    max-width: 33%;
+    width:5%;
     height:170px;
     margin: 10px;
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
-    border: 2px solid green;
+    background-color: #fffaef;
    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/

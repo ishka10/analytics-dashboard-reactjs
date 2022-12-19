@@ -1,14 +1,28 @@
 export const COLUMNS =[
     {
-        Header:'ID',
-        accessor:'id'
+        Header:'Patient name',
+        accessor:'patient_name'
     },
     {
-        Header:'First Name',
-        accessor:'first_name'
+        Header:'Patient ID',
+        accessor:'patient_id'
+    },   
+    {
+        Header : 'Room No',
+        accessor:'room_no'
     },
     {
-        Header : 'Last Name',
-        accessor:'last_name'
+        Header:'Assigned Doctor',
+        accessor:'assigned_doctor'
+    },
+    {
+            Header:'Assigned Nurse',
+            accessor:'assigned_nurse'
+    },
+    {
+    Header:'Department',
+    accessor:'division'
     }
+
+    
 ]

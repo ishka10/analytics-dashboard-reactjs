@@ -1,15 +1,18 @@
 import './FeaturedInfo.css'
+import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 const FeaturedInfo = () => {
     return ( 
         <div className="row">
             <div className="card-1">
-                <span className="featuredTitle">Revenue</span>
-                <div className="featuredMoneyContainer">
-                    <span className="featuredMoney">$93456.45</span>
-                    <span className="featuredMoneyRate">-11.4</span>
+                <div className="featuredIcon">
+                <AccessibilityNewIcon />
                 </div>
-                <span className="featuredSub">Compared to last month</span>
-            </div>
+                <div>
+                <span className="featuredTitle">Admitted Patients</span>
+                <br/>
+                <span className="featuredNumber">834</span>
+                </div>
+                </div>
             <div className="card-1">
                 <span className="featuredTitle">Sales</span>
                 <div className="featuredMoneyContainer">
