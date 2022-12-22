@@ -25,13 +25,13 @@
   }
   
   /* Default Table Style */
-  table {
+ /* table {
     color: #333;
     background: white;
     border: 1px solid grey;
-    font-size: 12pt;
+    font-size: 11.5pt;
     border-collapse: collapse;
-    float: left;
+    float: center;
   }
   table thead th,
   table tfoot th {
@@ -39,21 +39,56 @@
     background: #8884d8;
   }
   table caption {
-    padding:.5em;
+    padding:.2em;
   }
   table th,
   table td {
-    padding: .5em;
+    padding: 0.22em;
     border: 1px solid lightgrey;
   }
 
   .card-table{
     position:relative;
-    flex:1;
-    max-width:47%;
+    flex:2 1 0;
+    max-width:60em;
     height:240px;
     margin: 10px;
     padding: 30px;
     border-radius: 10px;      
     background-color: #fffaef; 
+}*/
+
+
+table {
+  color: #333;
+  background: white;
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+  float: left;
+  top:5px;
+}
+table thead th,
+table tfoot th {
+  color: #555;
+  background: #8884d8;
+}
+table caption {
+  padding:.5em;
+}
+table th,
+table td {
+  padding: .3em;
+  border: 1px solid lightgrey;
+}
+
+.card-table{
+  position:relative;
+  flex:2 1 0;
+  max-width:50%;
+  height:240px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;      
+  background-color: #fffaef; 
 }

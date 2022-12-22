@@ -1,12 +1,9 @@
 
 import { PieChart, Pie, Legend,Sector, Cell, ResponsiveContainer } from 'recharts';
 import './Chartpie1.css'
+import data from './data.json';
 
-const data = [
-  { name: 'Excellent', value: 78 },
-  { name: 'Okay', value: 16 },
-  { name: 'Poor', value: 4 },
-];
+
 
 const COLORS = ['#82ca9d', '#ff4da6', '#ff6666'];
 

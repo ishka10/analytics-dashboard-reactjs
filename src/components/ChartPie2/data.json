@@ -1,0 +1,7 @@
+[
+    { "name": "Cardiology", "value": 25 },
+    { "name": "Gynecology", "value": 32},
+    { "name": "Neurology", "value": 19 },
+    { "name": "Pediatrics", "value": 15 },
+    { "name": "Dentistry", "value": 9 }
+  ]

@@ -19,8 +19,8 @@ function App() {
     </div>
     <div className ="row">
       <Table/>
-      <Chartpie1 />
       <Chartpie2 />
+      <Chartpie1 />
       </div>        
     </div>
   );

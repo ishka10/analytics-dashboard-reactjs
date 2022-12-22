@@ -1,0 +1,32 @@
+[
+ {
+   "name": "Physiologist",
+   "IP": 42,
+   "OP": 24
+ },
+ {
+   "name": "Pediatrician",
+   "IP": 13,
+   "OP": 25
+ },
+ {
+   "name": "Neurologist",
+   "IP": 12,
+   "OP": 25
+ },
+ {
+   "name": "Gynecologist",
+   "IP": 28,
+   "OP": 30
+ },
+ {
+   "name": "Dentist",
+   "IP": 11,
+   "OP": 15
+ },
+ {
+   "name": "Cardiologist",
+   "IP": 8,
+   "OP": 10
+ }
+]

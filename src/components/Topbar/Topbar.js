@@ -7,7 +7,7 @@ const  Topbar = () => {
         <div className="Topbar">
             <div className="topbarWrapper">
                 <div className="topLeft">
-                <span className="logo">MSW Hospitals</span>
+                <span className="logo">MSW HOSPITALS</span>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">
@@ -20,7 +20,8 @@ const  Topbar = () => {
                     <div className="topbarIconContainer">
                         <SettingsIcon/>
                     </div>
-                    <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Round&hairColor=Black&facialHairType=Blank&clotheType=Overall&clotheColor=Gray01&eyeType=Happy&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Light" alt="profile" className="topAvatar" />
+                    <img src="https://as2.ftcdn.net/v2/jpg/02/29/75/83/1000_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="profile" className="topAvatar" />
+                    
                 </div>
             </div>
         </div>

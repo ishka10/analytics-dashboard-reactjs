@@ -1,13 +1,7 @@
 import './Chartpie2.css'
 import { PieChart, Pie, Legend,Sector, Cell, ResponsiveContainer } from 'recharts';
+import data from './data.json'
 
-const data = [
-    { name: 'Cardiology', value: 25 },
-    { name: 'Gynecology', value: 32},
-    { name: 'Neurology', value: 19 },
-    { name: 'Pediatrics', value: 15 },
-    { name: 'Dentistry', value: 9 }
-  ];
   
   const COLORS = ['#82ca9d', '#ff4da6', '#ff6666','#ffa31a','#8884d8'];
   

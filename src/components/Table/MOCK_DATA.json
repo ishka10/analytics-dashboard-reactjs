@@ -1,6 +1,6 @@
 [{"patient_name":"Edmond Rankin, 32Y, M","patient_id":"5673","room_no":"A143","assigned_doctor":"Dr.Chris Park","assigned_nurse":"Dimitria French","division":"cardiology"},
 {"patient_name":"Claire Thompson, 28Y, F","patient_id":"5791","room_no":"A160","assigned_doctor":"Dr.Dia Simons","assigned_nurse":"Paula Jones","division":"neurology"},
 {"patient_name":"Mike Broody, 40Y, M","patient_id":"5812","room_no":"A129","assigned_doctor":"Dr.Roger Fernandes","assigned_nurse":"Eric Geller","division":"gynecology"},
-{"patient_name":"Maria Gonalez, 25Y, F","patient_id":"5834","room_no":"B238","assigned_doctor":"Dr. Ellen Zaslaw","assigned_nurse":"Beth Cohen","division":"physiology"},
-{"patient_name":"Yin Liu, 55Y, M","patient_id":"5840","room_no":"A156","assigned_doctor":"Dr.Schuler George","assigned_nurse":"Lara Eagger","division":"cardiology"}
+{"patient_name":"Maria Gonalez, 25Y, F","patient_id":"5834","room_no":"B238","assigned_doctor":"Dr. Ellen Zaslaw","assigned_nurse":"Beth Cohen","division":"physiology"}
+
 ]
