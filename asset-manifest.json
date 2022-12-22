@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/analytics-dashboard-reactjs/static/css/main.c5bdde7e.css",
-    "main.js": "/analytics-dashboard-reactjs/static/js/main.34910402.js",
+    "main.css": "/analytics-dashboard-reactjs/static/css/main.f91959b9.css",
+    "main.js": "/analytics-dashboard-reactjs/static/js/main.f8af574f.js",
     "index.html": "/analytics-dashboard-reactjs/index.html",
-    "main.c5bdde7e.css.map": "/analytics-dashboard-reactjs/static/css/main.c5bdde7e.css.map",
-    "main.34910402.js.map": "/analytics-dashboard-reactjs/static/js/main.34910402.js.map"
+    "main.f91959b9.css.map": "/analytics-dashboard-reactjs/static/css/main.f91959b9.css.map",
+    "main.f8af574f.js.map": "/analytics-dashboard-reactjs/static/js/main.f8af574f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5bdde7e.css",
-    "static/js/main.34910402.js"
+    "static/css/main.f91959b9.css",
+    "static/js/main.f8af574f.js"
   ]
 }
